@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c0c0c0;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+.header {
+  background-color: #003399;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  height: 40px;
+}
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 80px;
+  background: white;
+  padding: 20px;
+  border: 2px solid black;
+  
+}
+
+h1 {
+  font-size: 36px;
+  color: #003366;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #333;
+}
+
+button {
+  background: #003366;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #0055a5;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.foo {
+  background-color: #003399;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
